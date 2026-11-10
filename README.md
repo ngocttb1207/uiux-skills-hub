@@ -31,11 +31,20 @@ opportunities and generate Excel reports.
 
 ---
 
-## 02. Brainstorm
 
-Planned Skills:
-- Design Context
-- PM Spec Review
+# 02 - Brainstorm
+
+Skills supporting product context,
+requirement analysis and design ideation.
+
+## Available Skills
+
+### 1. Design Context
+[View Skill](design-context/SKILL.md)
+
+### 2. PM Spec Review
+[View Skill](pm-spec-review/SKILL.md)
+
 
 ## 03. Design
 
