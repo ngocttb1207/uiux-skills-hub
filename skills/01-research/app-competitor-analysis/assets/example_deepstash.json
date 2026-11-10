@@ -1,0 +1,749 @@
+{
+ "title": "Phân tích cạnh tranh ứng dụng Micro-learning & Tóm tắt sách — UI/UX & Chiến lược",
+ "subtitle": "Phân tích SWOT · Chân dung người dùng · UI/UX · Chiến lược bán hàng · Đề xuất sản phẩm mới",
+ "analysis_date": "10/11/2026",
+ "apps": [
+  {
+   "name": "App 01 · Deepstash",
+   "developer": "Brainstash, Inc",
+   "rating": "⭐ 4,7 · ~84 nghìn lượt đánh giá trên iOS (US)\n#6 Education",
+   "store_url": "https://apps.apple.com/us/app/deepstash-smarter-every-day/id1445023295"
+  },
+  {
+   "name": "App 02 · Headway",
+   "developer": "GTHW App Limited",
+   "rating": "⭐ 4,6 · ~117 nghìn lượt đánh giá trên iOS (US)\nEditors’ Choice · #172 Education",
+   "store_url": "https://apps.apple.com/us/app/headway-daily-micro-learning/id1457185832"
+  },
+  {
+   "name": "App 03 · Imprint",
+   "developer": "Polywise, Inc.",
+   "rating": "⭐ 4,8 · ~59 nghìn lượt đánh giá trên iOS (US)\nEditors’ Choice · #5 Education",
+   "store_url": "https://apps.apple.com/us/app/imprint-visual-micro-learning/id1482780647"
+  },
+  {
+   "name": "App 04 · Blinkist",
+   "developer": "Blinks Labs GmbH",
+   "rating": "⭐ 4,8 · ~158 nghìn lượt đánh giá trên iOS (US)\nEditors’ Choice · #68 Education",
+   "store_url": "https://apps.apple.com/us/app/blinkist-book-summaries-daily/id568839295"
+  }
+ ],
+ "sources_note": "Nguồn dữ liệu: App Store (US) — mô tả app, mục In-App Purchases, rating, review người dùng, ghi chú phiên bản (truy cập 10/11/2026); các bài review/so sánh của bên thứ ba (Nibble, BeFreed, Educational App Store, ScreensDesign). Lưu ý: nhiều bài so sánh do chính đối thủ viết nên có thể thiên vị. Các nhận định UI (màu, layout, điều hướng) dựa trên screenshot công khai & trải nghiệm phổ biến của app — cần xác minh lại trên thiết bị thật vì app cập nhật giao diện thường xuyên. Giá là giá niêm yết US, thay đổi theo khu vực và khuyến mãi.",
+ "persona": [
+  {
+   "criterion": "Đối tượng chính",
+   "values": [
+    "- Người đi làm trẻ & sinh viên (20–35 tuổi) muốn thay thói quen lướt mạng xã hội bằng nội dung có giá trị.\n- Người quan tâm phát triển bản thân, năng suất, tâm lý, kinh doanh nhưng không đủ thời gian đọc trọn cuốn sách.\n- Nhóm “curator” — thích sưu tầm, lưu và chia sẻ ý tưởng hay lên mạng xã hội.",
+    "- Người đi làm 25–45 tuổi theo đuổi self-growth có mục tiêu rõ (tự tin, tài chính, quan hệ, nuôi dạy con).\n- Người muốn hình thành thói quen học hằng ngày, phản hồi tốt với gamification (streak, challenge).\n- Người học tiếng Anh (dùng flashcard để học từ mới).",
+    "- Visual learner, người có ADHD/khó tập trung khi đọc chữ dài (nhiều review nhắc tới).\n- Người đi làm & lifelong learner (22–40 tuổi) muốn hiểu khái niệm “khó” (triết học, tài chính, khoa học, lịch sử) một cách nhanh.\n- Người dùng iOS có thu nhập khá, chuộng sản phẩm có thẩm mỹ cao.",
+    "- Người đi làm/quản lý 25–50 tuổi, đọc nhiều sách phi hư cấu, muốn “xem trước” sách trước khi mua.\n- Người hay di chuyển, thích nghe (commute, tập gym, việc nhà).\n- Người dùng chuyên nghiệp cần tóm tắt nhanh tài liệu, bài báo, PDF (gói Pro có AI)."
+   ]
+  },
+  {
+   "criterion": "Thu nhập & Tech level",
+   "values": [
+    "Trung bình. Tech level trung bình – cao, quen dùng feed kiểu mạng xã hội. Nhạy cảm về giá, nhiều người chỉ dùng bản free.",
+    "Trung bình – khá. Tech level trung bình; onboarding dạng quiz cá nhân hoá giúp người ít rành công nghệ vẫn bắt đầu dễ.",
+    "Trung bình – cao. Tech level trung bình – cao; sẵn sàng trả $15.99/tháng (ngang Blinkist Premium) dù catalog nhỏ hơn, vì trải nghiệm thẩm mỹ.",
+    "Khá – cao. Tech level đa dạng; nhóm chuyên nghiệp dùng thêm Kindle, AI tóm tắt tài liệu."
+   ]
+  },
+  {
+   "criterion": "Mục tiêu chính",
+   "values": [
+    "- Học một điều mới trong ~5 phút/ngày.\n- Thay thời gian doomscrolling bằng nội dung có ích.\n- Lưu các ý tưởng hay vào bộ sưu tập (stash) để dùng lại cho công việc, mục tiêu cá nhân.\n- Chia sẻ insight lên mạng xã hội để thể hiện bản thân.",
+    "- Nắm ý chính của sách bán chạy trong ≤15 phút.\n- Xây dựng thói quen học mỗi ngày (daily session, challenge).\n- Ghi nhớ lâu bằng flashcard / spaced repetition.\n- Cải thiện các mảng đời sống cụ thể (tự tin, tiền bạc, quan hệ…).",
+    "- Hiểu nhanh các khái niệm phức tạp qua hình minh hoạ.\n- Học theo khoá học có cấu trúc, mỗi chương ≤2 phút.\n- Kiểm tra mức hiểu bằng quiz và lưu lại visual quan trọng.\n- Duy trì học đều đặn mà không thấy “nặng nề”.",
+    "- Tiếp thu ý chính từ 9.000+ sách & podcast trong 15 phút.\n- Nghe khi đang di chuyển, làm việc khác.\n- Quyết định có nên đọc trọn cuốn sách không.\n- (Pro) Tóm tắt nhanh bài viết, PDF, video bằng AI."
+   ]
+  },
+  {
+   "criterion": "Pain points",
+   "values": [
+    "- Thấy “tội lỗi” vì mất thời gian lướt mạng xã hội vô bổ.\n- Không có thời gian đọc trọn sách nhưng vẫn muốn hiểu biết rộng.\n- Đọc nhiều thứ trên mạng nhưng không lưu lại, quên nhanh.\n- (Pain do chính app gây ra) Bị ép vào free trial ngay sau đăng ký; nội dung ngoài mảng self-help khá nông.",
+    "- Mua sách nhưng không đọc hết, bỏ dở giữa chừng.\n- Đọc xong quên ngay, không áp dụng được.\n- Thiếu động lực duy trì việc đọc.\n- (Pain do app gây ra) Giá subscription cao, thu phí tự động khiến mất niềm tin; thư viện khó quản lý sách muốn đọc.",
+    "- Khó tập trung khi đọc khối chữ dài.\n- Tài liệu giáo khoa/sách chuyên sâu quá phức tạp, “khô”.\n- Học xong không chắc mình đã hiểu.\n- (Pain do app gây ra) Không có audio; một số module của khoá học chưa phát hành, báo lỗi không rõ ràng.",
+    "- Danh sách “sách muốn đọc” quá dài, không đủ thời gian.\n- Sợ mua sách rồi thất vọng.\n- Muốn học trong lúc tay/chân bận (lái xe, tập).\n- (Pain do app gây ra) Giá cao (~$100/năm); người dùng cảm nhận chất lượng tóm tắt giảm vì nội dung sinh bằng AI, nhiều câu “độn”."
+   ]
+  },
+  {
+   "criterion": "Hành vi sử dụng",
+   "values": [
+    "- Mở app nhiều lần/ngày trong khoảng thời gian ngắn (chờ, giải lao, trước khi ngủ).\n- Vuốt feed thẻ ý tưởng giống mạng xã hội; lưu & chia sẻ.\n- Ít đọc theo trình tự cuốn sách; khám phá theo chủ đề.\n- Phần lớn dùng bản free, chuyển đổi khi muốn nghe audio/offline.",
+    "- Phiên học buổi sáng/đi làm 10–15 phút.\n- Kết hợp đọc + nghe; dùng widget màn hình khoá để nhận quote.\n- Làm challenge theo chuỗi ngày; ôn flashcard.\n- Dùng cả trên Apple Watch khi nghe audio.",
+    "- Nhiều phiên ngắn rải rác trong ngày, mỗi chương ≤2 phút.\n- Tap trái/phải qua từng màn hình như Stories.\n- Làm quiz cuối chương, bookmark visual để xem lại.\n- Theo đuổi trọn một khoá học/visual guide thay vì nhảy chủ đề.",
+    "- Nghe là chính (commute, gym, việc nhà), đọc text khi rảnh.\n- Mở “Daily pick” mỗi ngày (kể cả user free).\n- Tải offline trước chuyến đi; gửi sang Kindle.\n- Người dùng Pro dán link/PDF để AI tóm tắt."
+   ]
+  },
+  {
+   "criterion": "Mức độ sẵn sàng trả phí",
+   "values": [
+    "Thấp – trung bình. Nhiều mức giá thử nghiệm ($29.99–$119.99/năm); động lực nâng cấp chính: bỏ quảng cáo, audio, offline, lịch sử đọc không giới hạn.",
+    "Trung bình — $12.99/tháng hoặc $89.99/năm; khuyến mãi lifetime thường xuyên. Động lực: mở toàn bộ thư viện + audio + flashcard.",
+    "Trung bình – cao — $15.99/tháng, $74.99–$99.99/năm (ngang Blinkist Premium). Động lực: mở toàn bộ khoá học/visual guide.",
+    "Trung bình – cao — Premium $79.99–$119.99/năm, Pro $139.99/năm. Động lực: thư viện lớn nhất, audio chuyên nghiệp, AI tóm tắt, chia sẻ tài khoản 2-cho-1."
+   ]
+  }
+ ],
+ "ui": [
+  {
+   "criterion": "Style Graphic, App Style",
+   "values": [
+    "Graphic Style: Editorial, Card-based, Art-driven\n- Mỗi ý tưởng là một thẻ (card) có artwork minh hoạ riêng, chữ ngắn, khoảng trắng rộng.\n- Hướng thẩm mỹ “tạp chí”, nhấn vào hình ảnh nghệ thuật thay vì icon chức năng.\nApp Style: Social-feed, Discovery-driven\n- Trải nghiệm giống mạng xã hội — feed vô tận, lưu (stash), chia sẻ.\n- Gần đây chuyển dần sang cấu trúc theo cuốn sách, Home chia section rõ hơn (bản 33.1.0).",
+    "Graphic Style: Friendly, Illustrated, Gamified\n- Minh hoạ phẳng nhiều màu, cover sách nổi bật, card bo tròn lớn.\n- Nhiều yếu tố gamification — streak, progress ring, badge, challenge.\nApp Style: Habit-building, Personalized journey\n- Định hướng như một “huấn luyện viên” phát triển bản thân: daily session, challenge, flashcard.\n- Nội dung đa định dạng — Shorts (dạng stories), summary text, audio.",
+    "Graphic Style: Premium, Illustrated, Storytelling\n- Minh hoạ/infographic động chất lượng cao là trung tâm của mỗi màn hình.\n- Splash màu xanh rừng (forest green) với chữ serif trắng — cảm giác tri thức, sang trọng.\nApp Style: Course-based, Visual-first\n- Nội dung theo khoá học/visual guide có chương, tiến độ rõ.\n- Tương tác tap trái/phải như Stories, quiz chen giữa.",
+    "Graphic Style: Clean, Content-first, Professional\n- Cover sách là thành phần thị giác chính, nền phẳng, ít trang trí.\n- Nhận diện thương hiệu nhất quán qua màu xanh lá đặc trưng.\nApp Style: Library/Player, Audio-centric\n- Như một ứng dụng thư viện + trình phát audio: khám phá → đọc/nghe → lưu thư viện.\n- Mật độ nội dung lớn (9.000+ đầu sách), phân loại theo chủ đề, collection, guide."
+   ]
+  },
+  {
+   "criterion": "Brand Color, Themes",
+   "values": [
+    "Màu nhận diện tối giản (đen/trắng) kết hợp artwork nhiều màu trên từng thẻ — màu đến từ nội dung hơn là từ UI.\nHỗ trợ Light & Dark Mode (cần xác minh). Một review năm 2020 phàn nàn app chỉ có đen trắng, muốn thêm màu pastel.",
+    "Nền sáng ấm (kem/trắng) với các màu nhấn tươi theo từng category; cover sách nhiều màu.\nĐiểm nhấn CTA nổi bật trên nền sáng. (Cần xác minh Dark Mode trên thiết bị.)",
+    "Xanh rừng (forest green) là màu chủ đạo cho splash/onboarding, kết hợp nền trắng/kem và minh hoạ nhiều màu.\nPhong cách giống sách in cao cấp. (Cần xác minh Dark Mode.)",
+    "Xanh navy đậm + xanh lá (green accent) đặc trưng Blinkist, nền trắng.\nApp Store xác nhận hỗ trợ Dark Interface và Sufficient Contrast."
+   ]
+  },
+  {
+   "criterion": "Typography",
+   "values": [
+    "Kết hợp serif/sans-serif kiểu editorial cho thẻ ý tưởng; cỡ chữ lớn — được người dùng (có ADHD, lớn tuổi) khen dễ đọc.",
+    "Sans-serif tròn, thân thiện. Tiêu đề đậm; nhiều nhãn trạng thái (streak, %, thời lượng).",
+    "Serif cho tiêu đề/brand tạo cảm giác học thuật; sans-serif cho nội dung. Đoạn text ngắn, phân cấp rõ.",
+    "Sans-serif hiện đại, phân cấp rõ; chế độ đọc tối ưu cho đoạn văn dài, có tuỳ chỉnh hiển thị."
+   ]
+  },
+  {
+   "criterion": "Phong cách icon",
+   "values": [
+    "Line icon tối giản, đơn sắc; icon hành động chính trên thẻ: lưu, chia sẻ, nghe.",
+    "Kết hợp icon filled nhiều màu + emoji/minh hoạ cho challenge & category; tạo cảm giác vui, game hoá.",
+    "Line icon mảnh, đơn giản; hạn chế icon để nhường chỗ cho minh hoạ (ví dụ icon bookmark “Save”).",
+    "Line icon đơn sắc, đồng bộ; icon player (play, tốc độ, tải offline) được nhấn mạnh."
+   ]
+  },
+  {
+   "criterion": "Home screen: Layout and Architecture Information",
+   "values": [
+    "Bố cục: Home chia section (cập nhật 11/2026) — gợi ý cá nhân hoá, sách đang đọc, chủ đề; trước đó là feed thẻ cuộn dọc.\nThể hiện thông tin: Thẻ ý tưởng có artwork + tiêu đề ngắn + nguồn (sách).\nĐiều hướng: Bottom Navigation dạng tab (Home / Khám phá / Thư viện–Stash / Hồ sơ) — cần xác minh tên tab.\nPhân cấp thông tin: Ưu tiên nội dung gợi ý cá nhân hoá (refresh nhiều lần/ngày), tiếp theo là tiến độ đọc sách và bộ sưu tập.",
+    "Bố cục: Home dạng “For You” nhiều section: daily session/insights, Shorts dạng stories, sách gợi ý, challenge đang tham gia.\nThể hiện thông tin: Cover sách + thời lượng + tiến độ; Shorts dạng vòng tròn/thẻ dọc.\nĐiều hướng: Bottom Navigation (For You / Explore / Library / Hồ sơ hoặc Spaced Repetition) — cần xác minh.\nPhân cấp thông tin: Ưu tiên hành động “học hôm nay” và streak; khám phá thư viện ở cấp thứ hai.",
+    "Bố cục: Home liệt kê khoá học/visual guide theo chủ đề, khu vực “tiếp tục học” có tiến độ chương.\nThể hiện thông tin: Thumbnail minh hoạ lớn + tiêu đề; trong bài học: mỗi màn hình 1 ý + 1 visual.\nĐiều hướng: Bottom Navigation tối giản; Library có bộ lọc All / To Read / Complete.\nPhân cấp thông tin: Ưu tiên “Continue learning” và daily quiz, sau đó là catalog.",
+    "Bố cục: Home có Daily Pick (miễn phí), gợi ý cá nhân hoá, danh sách theo chủ đề/collection, Guides.\nThể hiện thông tin: Cover sách + tác giả + thời lượng đọc/nghe.\nĐiều hướng: Bottom Navigation (Home / Explore / Library) + mini-player nổi khi đang nghe.\nPhân cấp thông tin: Ưu tiên Daily Pick & tiếp tục nghe; khám phá thư viện lớn qua Explore/Search."
+   ]
+  },
+  {
+   "criterion": "Điểm mạnh UI",
+   "values": [
+    "- Thẻ ý tưởng đẹp, mỗi thẻ có artwork riêng, tạo cảm giác “cảm hứng” chứ không “học bài”.\n- Chữ lớn, ít nhiễu, dễ đọc lướt.\n- Định dạng thẻ rất dễ chia sẻ lên mạng xã hội (viral loop tự nhiên).",
+    "- Gamification trực quan (streak, challenge, progress) tạo động lực rõ ràng.\n- Đa định dạng (Shorts, text, audio) trong cùng một hệ thống nhất quán.\n- Widget màn hình khoá giúp hiện diện liên tục.",
+    "- Chất lượng minh hoạ cao nhất nhóm — USP thị giác rõ ràng (Editors’ Choice).\n- Mỗi màn hình chỉ một ý, giảm tải nhận thức tối đa.\n- Quiz chen giữa nội dung giúp kiểm chứng hiểu biết ngay.",
+    "- Bố cục quen thuộc kiểu thư viện/podcast, dễ dùng cho mọi độ tuổi.\n- Trình phát audio hoàn chỉnh (tốc độ, offline, mini-player).\n- Hỗ trợ accessibility tốt nhất nhóm (VoiceOver, Dark Interface, Contrast)."
+   ]
+  },
+  {
+   "criterion": "Điểm yếu UI",
+   "values": [
+    "- Thay đổi định hướng nội dung (từ ý tưởng rời sang cuốn sách) khiến kiến trúc thông tin chưa ổn định, người dùng cũ hụt hẫng.\n- Upsell/paywall xuất hiện dày đặc làm đứt mạch đọc.\n- Màu UI ít điểm nhấn, phụ thuộc vào artwork.",
+    "- Mật độ thông tin & gamification cao, có thể gây nhiễu.\n- Library gộp chung sách đã đọc, đọc dở, đánh giá thấp — khó tìm (theo review).\n- Audio tự chuyển sang sách không liên quan khi hết bài.",
+    "- Không có audio — bất lợi khi người dùng bận tay/mắt.\n- Thông báo khi module chưa phát hành chưa rõ ràng.\n- Chỉ hỗ trợ tiếng Anh.",
+    "- Giao diện ít cảm xúc, “an toàn”, khó tạo khác biệt thị giác.\n- Thư viện quá lớn dễ gây quá tải lựa chọn.\n- Yêu cầu iOS 18+ bỏ sót thiết bị cũ."
+   ]
+  }
+ ],
+ "ux": [
+  {
+   "criterion": "Số lượng tính năng",
+   "values": [
+    "Trung bình – nhiều (~12–15). Tập trung khám phá, lưu và chia sẻ ý tưởng.",
+    "Nhiều (15+). Tóm tắt sách, Shorts, challenge, flashcard, widget, Apple Watch.",
+    "Trung bình (~8–10). Tập trung học bằng hình + quiz.",
+    "Nhiều (15+). Tóm tắt sách & podcast, Guides, AI, Kindle, offline, chia sẻ tài khoản."
+   ]
+  },
+  {
+   "criterion": "Core/main Function",
+   "values": [
+    "- Idea Cards: thẻ ý tưởng ngắn kèm artwork từ sách, bài viết, podcast, video.\n- Personalized Feed: gợi ý theo chủ đề, làm mới nhiều lần/ngày.\n- Stashes: lưu ý tưởng vào bộ sưu tập, tìm kiếm & lọc.\n- Share: chia sẻ lên WhatsApp, Facebook, X, Instagram, TikTok, LinkedIn, Quora.",
+    "- Book Summaries: 1.700+ tóm tắt sách phi hư cấu ≤15 phút (text + audio).\n- Daily Microlearning Session: chuỗi ý tưởng ngắn mỗi ngày.\n- Self-growth Challenges: thử thách theo mảng (Success, Wealth, Relationships…).\n- Personalized Journey: nội dung theo mục tiêu người dùng.",
+    "- Visual Lessons: bài học bằng minh hoạ động, mỗi chương ≤2 phút.\n- Courses: khoá học có cấu trúc (triết học, tài chính, tâm lý…).\n- Visual Guides to Bestselling Books: Sapiens, Atomic Habits…\n- Quick Reads: chủ đề ngắn.",
+    "- Book & Podcast Summaries: 9.000+ “Blinks” 15 phút, text + audio.\n- Daily Pick: 1 tóm tắt miễn phí mỗi ngày do biên tập viên chọn.\n- Personalized Recommendations theo mục tiêu.\n- Library & Offline mode."
+   ]
+  },
+  {
+   "criterion": "Extra/Sub Function",
+   "values": [
+    "- Tạo & chia sẻ ý tưởng của riêng mình (user-generated content).\n- Audio playback cho mọi ý tưởng (Pro).\n- Book scanning (quét sách).\n- Quiz (có thể tắt).\n- Profile cards: tiến độ đọc, sách đã hoàn thành.\n- Đa ngôn ngữ EN/FR/ES.",
+    "- Spaced Repetition: biến insight/từ mới thành flashcard.\n- Widgets màn hình khoá (quote, insight).\n- Shorts dạng stories.\n- Apple Watch app.\n- Workbook/Infographics bán lẻ ($19.99).\n- Sự kiện in-app (ví dụ quiz hồ sơ chính trị).\n- 11 ngôn ngữ.",
+    "- Daily Quiz để ôn tập.\n- Save/Bookmark visual & insight.\n- Theo dõi tiến độ chương, lọc thư viện (All / To Read / Complete).\n- Daily goal & progress tracking.\n- Chia sẻ slide cho bạn bè.",
+    "- Expert-curated Guides & Collections (audio).\n- Send-to-Kindle.\n- 2-for-1 Premium: tặng 1 tài khoản cho người thân.\n- Hoàn tiền 14 ngày qua Apple.\n- Đa ngôn ngữ EN/DE/PT/ES."
+   ]
+  },
+  {
+   "criterion": "AI Assistant",
+   "values": [
+    "- Cá nhân hoá feed bằng thuật toán gợi ý theo hành vi đọc & lưu.\n- Chưa có trợ lý AI hội thoại công khai.\n- Giá trị: giảm công sức tìm nội dung.\n- Chất lượng: một số review cho rằng phần giải thích nghe “kiểu AI”, nông.",
+    "- AI-curated daily learning paths (theo nguồn bên thứ ba).\n- Cá nhân hoá nội dung theo mục tiêu.\n- Giá trị: lộ trình rõ ràng mỗi ngày.\n- Chất lượng: một số review chê tóm tắt như do AI viết vụng.",
+    "- Chưa có tính năng AI công khai cho người dùng.\n- Giá trị nằm ở nội dung do con người biên soạn + minh hoạ.\n- Cơ hội: AI tutor hỏi đáp trên từng visual.",
+    "- Blinkist AI (gói Pro): tóm tắt bài viết, PDF, video; hỏi đáp tiếp.\n- Giá trị: mở rộng từ “thư viện có sẵn” sang “tóm tắt mọi nội dung”.\n- Chất lượng: review phản ánh nội dung tóm tắt có câu “độn” kiểu AI; Blinkist khẳng định vẫn có con người biên tập & đọc."
+   ]
+  },
+  {
+   "criterion": "Usability",
+   "values": [
+    "- Khả năng tiếp cận Core: Mở app là thấy ngay nội dung — không cần chọn sách; thời gian tới giá trị (time-to-value) rất ngắn.\n- Quy trình sử dụng: Chọn chủ đề → đọc thẻ → lưu/chia sẻ. Đơn giản nhưng thiếu “đường đi tiếp” khi muốn đào sâu.\n- Tốc độ & chất lượng: Nội dung ngắn, tải nhanh; có offline ở bản Pro.\n- Hướng dẫn & Feedback: Onboarding chọn chủ đề; nhưng bị ép free trial ngay sau đăng ký (review).\n- Khả năng mở rộng: Có thể thêm “đọc sâu hơn” từ thẻ → chương → sách để giữ người dùng muốn chiều sâu.",
+    "- Khả năng tiếp cận Core: Daily session nằm ngay đầu Home, rõ việc cần làm hôm nay.\n- Quy trình sử dụng: Onboarding quiz mục tiêu → lộ trình → đọc/nghe → flashcard ôn tập — vòng lặp học hoàn chỉnh nhất nhóm.\n- Tốc độ & chất lượng: Hỗ trợ đọc/nghe, Apple Watch.\n- Hướng dẫn & Feedback: Gửi nhắc trước khi hết trial (minh bạch hơn đối thủ).\n- Khả năng mở rộng: Cần cải thiện Library (danh sách muốn đọc) và hành vi autoplay audio.",
+    "- Khả năng tiếp cận Core: “Continue learning” giúp quay lại đúng chỗ.\n- Quy trình sử dụng: Tap trái/phải từng màn → quiz → hoàn thành chương. Rất mượt, ít quyết định.\n- Tốc độ & chất lượng: Chương ≤2 phút, phù hợp phiên ngắn.\n- Hướng dẫn & Feedback: Quiz phản hồi đúng/sai tức thì; thông báo khi module chưa phát hành chưa rõ.\n- Khả năng mở rộng: Thêm audio & đa ngôn ngữ là bước tự nhiên.",
+    "- Khả năng tiếp cận Core: Daily Pick + nút play nổi bật, bắt đầu nghe trong 1–2 chạm.\n- Quy trình sử dụng: Khám phá → đọc/nghe theo “key ideas” → lưu Library/Kindle.\n- Tốc độ & chất lượng: Audio giọng đọc chuyên nghiệp, offline.\n- Hướng dẫn & Feedback: Hỗ trợ accessibility tốt; review phản ánh mất quyền truy cập ngay khi huỷ trial.\n- Khả năng mở rộng: AI tóm tắt nội dung bất kỳ giúp mở rộng use case ra ngoài thư viện."
+   ]
+  },
+  {
+   "criterion": "Khác",
+   "values": [
+    "- Điểm nổi bật: Định dạng “thẻ ý tưởng” + chia sẻ mạng xã hội là khác biệt lớn nhất so với app tóm tắt sách.\n- Điểm yếu: Định hướng sản phẩm đang dao động; nội dung nông ở chủ đề ngách.\n- Điểm học hỏi: Thời gian tới giá trị cực ngắn; artwork làm nội dung có cảm xúc.\n- Tối ưu đề xuất: Lộ trình “thẻ → chương → sách”; paywall sau khi người dùng đã thấy giá trị.",
+    "- Điểm nổi bật: Vòng lặp thói quen hoàn chỉnh (session → challenge → flashcard).\n- Điểm yếu: Giá & cách thu phí bị phàn nàn nhiều.\n- Điểm học hỏi: Spaced repetition gắn liền với nội dung; widget màn hình khoá.\n- Tối ưu đề xuất: Library có “Want to read”; autoplay theo chủ đề liên quan.",
+    "- Điểm nổi bật: Học bằng hình — khác biệt thị giác mạnh nhất, được Apple chọn Editors’ Choice.\n- Điểm yếu: Thiếu audio, chỉ tiếng Anh, catalog nhỏ hơn.\n- Điểm học hỏi: “1 màn hình = 1 ý + 1 visual” + quiz xen kẽ.\n- Tối ưu đề xuất: Thêm narration audio; bản địa hoá.",
+    "- Điểm nổi bật: Thư viện lớn nhất + audio chuyên nghiệp + AI tóm tắt.\n- Điểm yếu: Giá cao; cảm nhận chất lượng giảm do AI.\n- Điểm học hỏi: Mô hình 3 tầng (Basic / Premium / Pro), 2-for-1 account, Send-to-Kindle.\n- Tối ưu đề xuất: Minh bạch phần do AI tạo; nâng chất lượng biên tập."
+   ]
+  },
+  {
+   "criterion": "Chiến lược thông báo",
+   "values": [
+    "Nhắc đọc hằng ngày, gợi ý ý tưởng mới (feed refresh nhiều lần/ngày), nhắc streak. (Cần xác minh tần suất.)",
+    "Nhắc daily session & streak, nhắc ôn flashcard, nhắc trước khi hết free trial; widget thay thế một phần push.",
+    "Nhắc daily goal & daily quiz, nhắc tiếp tục khoá học đang dở.",
+    "Thông báo Daily Pick mỗi ngày, gợi ý sách mới theo sở thích, nhắc nghe tiếp."
+   ]
+  }
+ ],
+ "swot": [
+  {
+   "quadrant": "ĐIỂM MẠNH",
+   "dims": [
+    {
+     "dimension": "Định vị & uy tín",
+     "values": [
+      "Định vị rõ “thay doomscrolling bằng micro-learning”. 4,7/5 · ~84K đánh giá, #6 Education US; tự công bố 11M+ người dùng.",
+      "#1 app tóm tắt sách về lượt tải (tự công bố 50M+ người dùng). Editors’ Choice.",
+      "4,8/5 · ~59K đánh giá, Editors’ Choice, #5 Education US — thứ hạng cao nhất nhóm. Định vị “Learn Visually” độc nhất.",
+      "Thương hiệu lâu đời nhất (category leader), 4,8/5 · ~158K đánh giá — social proof mạnh nhất; 42M+ người dùng."
+     ]
+    },
+    {
+     "dimension": "Tính năng",
+     "values": [
+      "200.000+ ý tưởng từ sách, bài báo, podcast, video. Chia sẻ mạng xã hội, UGC, stash.",
+      "Spaced repetition flashcard, challenge, widget, Shorts, Apple Watch.",
+      "Minh hoạ động + quiz xen kẽ; khoá học có cấu trúc do chuyên gia biên soạn.",
+      "9.000+ tóm tắt sách & podcast, audio chuyên nghiệp, Blinkist AI, Send-to-Kindle, 2-for-1."
+     ]
+    },
+    {
+     "dimension": "Nền tảng",
+     "values": [
+      "iOS 16.4+ (tiếp cận rộng), iPad, Mac M1, Vision. 3 ngôn ngữ (EN/FR/ES).",
+      "iOS (iPad, Mac, Watch, Vision) & Android. 11 ngôn ngữ — bản địa hoá rộng nhất nhóm.",
+      "iOS 16+, iPad, Mac, Vision; có Android. Family Sharing.",
+      "iOS/Android/Web; hỗ trợ accessibility đầy đủ; Family Sharing."
+     ]
+    }
+   ]
+  },
+  {
+   "quadrant": "ĐIỂM YẾU",
+   "dims": [
+    {
+     "dimension": "Uy tín & social proof",
+     "values": [
+      "Review phàn nàn bị ép free trial 7 ngày ngay khi đăng ký; bài review bên thứ ba nêu khiếu nại về gia hạn & huỷ gói.",
+      "Phân tích sentiment cho thấy phàn nàn hàng đầu là thu phí mạnh tay & khó huỷ.",
+      "Ít phàn nàn về thanh toán; điểm trừ chủ yếu là thiếu nội dung/audio.",
+      "Review phản ánh chất lượng giảm do AI, thực hành gia hạn và đồng hồ đếm ngược khuyến mãi gây mất niềm tin."
+     ]
+    },
+    {
+     "dimension": "UX & Sản phẩm",
+     "values": [
+      "Định hướng thay đổi (bỏ bớt ý tưởng rời, chuyển sang tóm tắt sách) làm người dùng cũ rời đi; nội dung ngách nông.",
+      "Library khó quản lý; autoplay audio thiếu logic; mật độ gamification cao.",
+      "Không có audio; chỉ tiếng Anh; một số khoá học chưa đủ module.",
+      "Thư viện lớn gây quá tải lựa chọn; giao diện ít khác biệt."
+     ]
+    },
+    {
+     "dimension": "Giá & Giữ chân",
+     "values": [
+      "Bản free bị giới hạn & nhiều upsell; nhiều mức giá thử nghiệm gây khó hiểu.",
+      "$12.99/tháng bị chê đắt so với podcast miễn phí.",
+      "Giá ngang Blinkist Premium ($15.99/tháng, đến $99.99/năm) nhưng catalog nhỏ hơn, không có audio → khó giữ chân dài hạn.",
+      "Premium ~$100/năm, Pro $139.99/năm — đắt; yêu cầu iOS 18+."
+     ]
+    }
+   ]
+  },
+  {
+   "quadrant": "CƠ HỘI",
+   "dims": [
+    {
+     "dimension": "Khoảng trắng thị trường",
+     "values": [
+      "Kết hợp định dạng thẻ dễ chia sẻ + lộ trình đào sâu (thẻ → chương → sách) — chưa ai làm tốt.",
+      "Thêm định dạng trực quan (visual) như Imprint để tăng engagement của nhóm khó đọc chữ.",
+      "Visual + audio narration = trải nghiệm đa giác quan chưa ai có.",
+      "AI cá nhân hoá độ dài/độ sâu tóm tắt theo người học."
+     ]
+    },
+    {
+     "dimension": "Địa lý",
+     "values": [
+      "Mở rộng ngôn ngữ (đang có ES/FR) sang châu Á — SEA chưa có app micro-learning bản địa mạnh.",
+      "Thị trường châu Á (đã có tiếng Nhật) — bản địa hoá nội dung sách địa phương.",
+      "Chỉ có tiếng Anh → dư địa lớn khi bản địa hoá.",
+      "Thị trường DACH/LatAm sẵn có; châu Á còn bỏ ngỏ."
+     ]
+    },
+    {
+     "dimension": "Công nghệ",
+     "values": [
+      "AI tạo “thẻ ý tưởng” từ bất kỳ nguồn nào người dùng lưu (link, ảnh chụp trang sách).",
+      "AI tutor hỏi đáp trên từng flashcard/summary.",
+      "AI tạo minh hoạ để mở rộng catalog nhanh hơn.",
+      "AI hội thoại + học theo mục tiêu cá nhân (đang có nền tảng Blinkist AI)."
+     ]
+    }
+   ]
+  },
+  {
+   "quadrant": "THÁCH THỨC",
+   "dims": [
+    {
+     "dimension": "Nền tảng & Cạnh tranh",
+     "values": [
+      "Đối thủ AI cá nhân hoá (BeFreed…) và LLM phổ thông có thể tóm tắt sách miễn phí.",
+      "Chính Headway cạnh tranh nội bộ với Nibble; nhiều app clone tóm tắt sách.",
+      "Đối thủ có thể sao chép phong cách minh hoạ; chi phí sản xuất visual cao.",
+      "ChatGPT/Claude làm giảm giá trị cảm nhận của “tóm tắt sách trả phí”."
+     ]
+    },
+    {
+     "dimension": "Uy tín & Pháp lý",
+     "values": [
+      "Quy định chống “dark pattern” trong subscription (auto-renew, khó huỷ) ngày càng chặt.",
+      "Như trên — rủi ro từ khiếu nại billing.",
+      "Bản quyền nội dung sách khi tóm tắt/minh hoạ.",
+      "Minh bạch nội dung do AI tạo; rủi ro uy tín biên tập."
+     ]
+    },
+    {
+     "dimension": "Hành vi người dùng",
+     "values": [
+      "Người dùng “ăn snack” kiến thức dễ chán, không cảm thấy tiến bộ → churn.",
+      "Mệt mỏi với gamification (streak fatigue).",
+      "Không nghe được khi bận → mất các khung giờ commute.",
+      "Người dùng chuyển sang audio/podcast miễn phí hoặc AI tự tóm tắt."
+     ]
+    }
+   ]
+  }
+ ],
+ "matrix": [
+  {
+   "quadrant": "SO Điểm mạnh × Cơ hội",
+   "items": [
+    {
+     "strategy": "Định dạng thẻ + lộ trình đào sâu",
+     "rationale": "Thẻ ý tưởng dễ chia sẻ của App 01 + summary có cấu trúc của App 02/04 → người dùng bắt đầu nhẹ nhàng, khi thích thì đi sâu: thẻ → chương → sách. Lấp khoảng trống “nông vs. dài”."
+    },
+    {
+     "strategy": "Visual + Audio narration",
+     "rationale": "Minh hoạ của App 03 + audio chuyên nghiệp của App 04 → trải nghiệm đa giác quan, phục vụ cả lúc nhìn được lẫn lúc bận tay."
+    },
+    {
+     "strategy": "Bản địa hoá cho thị trường châu Á/SEA",
+     "rationale": "App 02 chứng minh 11 ngôn ngữ giúp mở rộng; App 03 chỉ có tiếng Anh → cơ hội tiên phong bằng nội dung bản địa (sách Việt, sách châu Á)."
+    },
+    {
+     "strategy": "Vòng lặp học & ghi nhớ hoàn chỉnh",
+     "rationale": "Spaced repetition của App 02 + quiz của App 03 + stash của App 01 → người dùng thấy rõ mình nhớ được gì, tăng giá trị cảm nhận."
+    }
+   ]
+  },
+  {
+   "quadrant": "WO Điểm yếu × Cơ hội",
+   "items": [
+    {
+     "strategy": "Giải quyết cảm giác “học nông”",
+     "rationale": "App 01 bị chê nông → thêm tầng “đọc sâu hơn”, liên kết nguồn gốc ý tưởng và AI giải thích thêm khi người dùng hỏi."
+    },
+    {
+     "strategy": "Progressive disclosure cho thư viện lớn",
+     "rationale": "App 04 có 9.000+ đầu sách gây quá tải → gợi ý theo mục tiêu + collection ngắn; chỉ mở rộng catalog khi người dùng đã quen."
+    },
+    {
+     "strategy": "Library có trạng thái rõ ràng",
+     "rationale": "App 02 bị phàn nàn library lộn xộn → tách Want to read / Đang đọc / Đã xong như App 03."
+    },
+    {
+     "strategy": "Cơ cấu giá rõ ràng, ít mức",
+     "rationale": "App 01 có quá nhiều mức giá → 1 gói năm + 1 gói tháng, hiển thị minh bạch thời điểm tính phí."
+    }
+   ]
+  },
+  {
+   "quadrant": "ST Điểm mạnh × Thách thức",
+   "items": [
+    {
+     "strategy": "Biên tập con người là USP chống “AI slop”",
+     "rationale": "Khi LLM tóm tắt sách miễn phí, giá trị nằm ở biên tập, minh hoạ và trải nghiệm. Gắn nhãn “do biên tập viên viết”, minh bạch phần AI hỗ trợ."
+    },
+    {
+     "strategy": "Dùng AI như trợ lý, không thay nội dung",
+     "rationale": "AI hỏi đáp/giải thích trên nền nội dung đã kiểm duyệt (như Blinkist AI) thay vì sinh tóm tắt hàng loạt."
+    },
+    {
+     "strategy": "Cộng đồng & chia sẻ để tạo hào chắn",
+     "rationale": "Tính năng chia sẻ thẻ & UGC của App 01 tạo network effect mà LLM không có."
+    }
+   ]
+  },
+  {
+   "quadrant": "WT Điểm yếu × Thách thức",
+   "items": [
+    {
+     "strategy": "Paywall sau giá trị, trial minh bạch",
+     "rationale": "Tránh ép trial ngay khi đăng ký (App 01) → cho học 1–3 bài trước, nhắc trước khi hết trial (như App 02), dễ huỷ."
+    },
+    {
+     "strategy": "Chống streak fatigue",
+     "rationale": "Cho phép “ngày nghỉ”/streak freeze, tập trung vào mốc tiến bộ thực (số ý tưởng nhớ được) thay vì chỉ đếm ngày mở app."
+    },
+    {
+     "strategy": "Bảo đảm bản quyền & chất lượng",
+     "rationale": "Hợp tác tác giả/NXB, ghi nguồn rõ trên mỗi thẻ; quy trình QA cho nội dung có AI hỗ trợ."
+    }
+   ]
+  }
+ ],
+ "pricing": [
+  {
+   "criterion": "Gói tuần / tháng",
+   "values": [
+    "$12.99 – $19.99/tháng (nhiều mức niêm yết); bên thứ ba ghi nhận gói 3 tháng $29.99",
+    "$12.99/tháng; gói theo chu kỳ tuần/tháng/6 tháng (nhiều mức $19.99–$59.99)",
+    "$15.99/tháng",
+    "Premium $12.99 – $15.99/tháng"
+   ]
+  },
+  {
+   "criterion": "Gói năm",
+   "values": [
+    "$29.99 – $119.99/năm (nhiều mức thử nghiệm); $49.99 kèm trial",
+    "$89.99/năm",
+    "$74.99 – $99.99/năm",
+    "Premium $79.99 – $119.99/năm; Pro $139.99/năm"
+   ]
+  },
+  {
+   "criterion": "Gói trọn đời",
+   "values": [
+    "Không thấy niêm yết",
+    "Có qua các kênh khuyến mãi (lifetime deal); bên thứ ba ghi nhận $299.99",
+    "Không có (có gói “Imprint premium” $29.99 — chưa rõ kỳ hạn)",
+    "Không có"
+   ]
+  },
+  {
+   "criterion": "Tầng miễn phí",
+   "values": [
+    "Có — đọc ý tưởng (có giới hạn & quảng cáo), tạo/chia sẻ ý tưởng",
+    "Có — giới hạn (bên thứ ba: ~1 summary/ngày)",
+    "Hạn chế — chủ yếu dùng thử 7 ngày",
+    "Có — Blinkist Basic: 1 Daily Pick/ngày"
+   ]
+  },
+  {
+   "criterion": "Cơ chế chuyển đổi",
+   "values": [
+    "Đăng ký → paywall trial 7 ngày ngay lập tức → giới hạn feed, upsell khi lưu/nghe audio/offline",
+    "Onboarding quiz mục tiêu → kế hoạch cá nhân hoá → trial → gia hạn tự động (có nhắc trước)",
+    "Onboarding giải thích phương pháp học → paywall trial 7 ngày → gói năm",
+    "Daily Pick miễn phí tạo thói quen → upsell Premium (thư viện, offline) → Pro (AI)"
+   ]
+  },
+  {
+   "criterion": "Chiến lược giữ chân",
+   "values": [
+    "Feed làm mới nhiều lần/ngày, stash cá nhân, lịch sử đọc theo ngày, profile tiến độ, quiz",
+    "Streak, challenge, spaced repetition, widget màn hình khoá, Apple Watch",
+    "Tiến độ khoá học, daily quiz, daily goal, bookmark visual",
+    "Daily Pick, thư viện cá nhân, offline, Kindle, tài khoản 2-cho-1 (gắn kết gia đình)"
+   ]
+  },
+  {
+   "criterion": "USP bán hàng chính",
+   "values": [
+    "“5 phút/ngày để thông minh hơn” — thẻ ý tưởng đẹp, dễ chia sẻ, thay thế mạng xã hội",
+    "App tóm tắt sách được tải nhiều nhất; học & nhớ lâu nhờ spaced repetition",
+    "Học bằng hình — hiểu khái niệm phức tạp trong 2 phút",
+    "Thư viện lớn nhất (9.000+), audio chuyên nghiệp, AI tóm tắt mọi nội dung"
+   ]
+  },
+  {
+   "criterion": "Rủi ro bán hàng",
+   "values": [
+    "Trải nghiệm free bị cắt quá mạnh; khiếu nại billing; định vị đang dịch chuyển sang tóm tắt sách — dễ bị so sánh trực diện với Blinkist/Headway",
+    "Khiếu nại billing ảnh hưởng uy tín; giá bị so với podcast miễn phí",
+    "Giá ngang Blinkist Premium nhưng catalog nhỏ & không audio → khó biện minh giá trị dài hạn",
+    "Giá cao + cảm nhận chất lượng giảm vì AI; LLM miễn phí bào mòn giá trị"
+   ]
+  },
+  {
+   "criterion": "Kênh thu hút chính",
+   "values": [
+    "Quảng cáo mạng xã hội (review nhắc thấy quảng cáo dày đặc), ASO, viral từ thẻ chia sẻ; cross-promo với Paladin cùng công ty",
+    "Performance marketing quy mô lớn, ASO đa ngôn ngữ, Editors’ Choice, blog SEO so sánh đối thủ, lifetime deal",
+    "Editors’ Choice / feature của App Store, quảng cáo video minh hoạ, ASO",
+    "Thương hiệu & PR (NYT, Forbes), ASO, khuyến mãi giảm giá lớn, B2B/doanh nghiệp"
+   ]
+  }
+ ],
+ "proposal": {
+  "name": "MindBite",
+  "subtitle": "Concept app mới tổng hợp điểm mạnh của Deepstash, Headway, Imprint, Blinkist",
+  "items": [
+   {
+    "item": "Tên & định vị",
+    "value": "MindBite — “Học từ thẻ đến sách, nhìn và nghe trong 5 phút”. Ứng dụng micro-learning dạng thẻ có minh hoạ + audio, cho phép đi sâu dần từ một ý tưởng đến trọn cuốn sách."
+   },
+   {
+    "item": "Đối tượng mục tiêu",
+    "value": "Người đi làm & sinh viên 20–35 tuổi tại Việt Nam/SEA; người khó tập trung đọc chữ dài; người muốn thay thói quen lướt mạng xã hội."
+   },
+   {
+    "item": "Value proposition",
+    "value": "Bắt đầu nhẹ như lướt feed (Deepstash) · hiểu sâu bằng hình (Imprint) · nhớ lâu bằng ôn tập (Headway) · học cả khi bận tay bằng audio (Blinkist)."
+   },
+   {
+    "item": "Tính năng cốt lõi (MVP)",
+    "value": "1) Feed thẻ ý tưởng có artwork + audio 30–60 giây.\n2) Lộ trình đào sâu: Thẻ → Chương (2 phút, có visual) → Tóm tắt sách 15 phút.\n3) Quiz 1 câu sau mỗi chương + flashcard spaced repetition tự động.\n4) Stash/bộ sưu tập + chia sẻ thẻ lên Facebook, TikTok, Zalo.\n5) Nội dung tiếng Việt, ưu tiên sách xuất bản tại Việt Nam."
+   },
+   {
+    "item": "Tính năng khác biệt",
+    "value": "- “Hỏi thêm” bằng AI trên từng thẻ (chỉ dựa trên nội dung đã biên tập, có ghi nguồn).\n- Chế độ “Commute”: tự ghép thẻ thành playlist audio theo thời lượng di chuyển.\n- Thẻ chia sẻ dạng ảnh dọc tối ưu cho Stories/TikTok."
+   },
+   {
+    "item": "Học hỏi từ đối thủ",
+    "value": "App 01: time-to-value cực ngắn, định dạng chia sẻ. App 02: vòng lặp thói quen, widget, nhắc trước khi hết trial. App 03: “1 màn hình = 1 ý + 1 visual”, quiz xen kẽ. App 04: audio player, Daily Pick miễn phí, tài khoản 2-cho-1."
+   },
+   {
+    "item": "Định hướng UI",
+    "value": "Editorial + illustrated — nền sáng ấm, 1 màu nhận diện chính + màu minh hoạ theo chủ đề; serif cho tiêu đề, sans-serif cho nội dung, cỡ chữ lớn; Light/Dark mode; tuân thủ contrast & VoiceOver ngay từ đầu."
+   },
+   {
+    "item": "Kiến trúc điều hướng",
+    "value": "Bottom Navigation 4 tab: Hôm nay (feed + mục tiêu ngày) · Khám phá (chủ đề, sách) · Thư viện (Muốn đọc / Đang đọc / Đã xong / Stash) · Ôn tập (flashcard). Mini-player audio nổi."
+   },
+   {
+    "item": "Onboarding",
+    "value": "3 bước: chọn 3 chủ đề → đọc/nghe ngay 1 thẻ mẫu → chọn mục tiêu phút/ngày. Không hiện paywall trước khi người dùng hoàn thành ít nhất 1 chương."
+   },
+   {
+    "item": "Paywall & giá",
+    "value": "Freemium rõ ràng — free 5 thẻ/ngày + 1 chương/ngày; Pro mở toàn bộ, audio, offline, AI hỏi thêm. Chỉ 2 gói (tháng & năm), trial 7 ngày có nhắc trước 2 ngày, huỷ trong 2 chạm. Giá bản địa hoá theo sức mua Việt Nam."
+   },
+   {
+    "item": "Retention loop",
+    "value": "Mục tiêu ngày → hoàn thành → flashcard ôn tập ngày hôm sau → widget màn hình khoá nhắc 1 insight → mốc tiến bộ “bạn đã nhớ 50 ý tưởng”. Có streak freeze để tránh streak fatigue."
+   },
+   {
+    "item": "KPI mục tiêu (giả định cần kiểm chứng)",
+    "value": "D1 ≥ 40%, D7 ≥ 20%, D30 ≥ 10%; tỉ lệ trial → trả phí ≥ 30%; ≥ 1 thẻ được chia sẻ / 10 người dùng hoạt động / tuần."
+   },
+   {
+    "item": "Rủi ro & giảm thiểu",
+    "value": "Bản quyền nội dung → hợp tác NXB/tác giả, ghi nguồn. Chi phí sản xuất minh hoạ → template minh hoạ + AI hỗ trợ có kiểm duyệt. Chất lượng AI → giới hạn AI trong nội dung đã biên tập, hiển thị nguồn."
+   }
+  ]
+ },
+ "glossary": [
+  {
+   "term": "UI (User Interface)",
+   "type": "Thiết kế",
+   "definition": "Giao diện người dùng — tất cả những gì người dùng nhìn thấy và tương tác trên màn hình",
+   "example": "Màu sắc, nút bấm, bố cục, icon, typography đều thuộc UI"
+  },
+  {
+   "term": "UX (User Experience)",
+   "type": "Thiết kế",
+   "definition": "Trải nghiệm người dùng — cảm nhận tổng thể khi sử dụng sản phẩm, không chỉ giao diện",
+   "example": "UX tốt khi người dùng mở app và học được ngay mà không phải suy nghĩ"
+  },
+  {
+   "term": "Micro-learning",
+   "type": "Giáo dục",
+   "definition": "Phương pháp học qua các đơn vị nội dung rất ngắn (vài giây đến ~15 phút), tập trung một ý",
+   "example": "Thẻ ý tưởng của Deepstash, chương 2 phút của Imprint"
+  },
+  {
+   "term": "Idea card",
+   "type": "Sản phẩm",
+   "definition": "Thẻ nội dung chứa một ý tưởng ngắn, thường kèm hình minh hoạ, dễ lưu và chia sẻ",
+   "example": "Định dạng cốt lõi của Deepstash"
+  },
+  {
+   "term": "Spaced Repetition",
+   "type": "Giáo dục",
+   "definition": "Kỹ thuật ôn tập nhắc lại nội dung theo khoảng thời gian tăng dần để ghi nhớ lâu",
+   "example": "Flashcard của Headway"
+  },
+  {
+   "term": "SWOT",
+   "type": "Phân tích",
+   "definition": "Khung phân tích chiến lược — Điểm mạnh (S), Điểm yếu (W), Cơ hội (O), Thách thức (T)",
+   "example": "S của Imprint = minh hoạ; W = không có audio"
+  },
+  {
+   "term": "Pain point",
+   "type": "UX Research",
+   "definition": "Vấn đề, khó chịu mà người dùng gặp phải — nhu cầu chưa được đáp ứng",
+   "example": "“Đọc xong là quên” → Headway giải quyết bằng flashcard"
+  },
+  {
+   "term": "Persona",
+   "type": "UX Research",
+   "definition": "Chân dung người dùng đại diện xây dựng từ dữ liệu nghiên cứu",
+   "example": "“Linh, 27 tuổi, nhân viên marketing, muốn bớt lướt TikTok”"
+  },
+  {
+   "term": "Time-to-value",
+   "type": "UX",
+   "definition": "Thời gian từ lúc mở app tới khi người dùng nhận được giá trị đầu tiên",
+   "example": "Deepstash có time-to-value rất ngắn vì feed hiện ngay"
+  },
+  {
+   "term": "Information Architecture (IA)",
+   "type": "UX",
+   "definition": "Cách tổ chức, phân nhóm và gắn nhãn nội dung để người dùng dễ tìm",
+   "example": "Library của Headway bị chê vì IA lộn xộn"
+  },
+  {
+   "term": "Progressive Disclosure",
+   "type": "UX",
+   "definition": "Hiển thị thông tin/tính năng dần dần theo nhu cầu, tránh choáng ngợp",
+   "example": "Lộ trình Thẻ → Chương → Sách của MindBite"
+  },
+  {
+   "term": "Onboarding",
+   "type": "UX",
+   "definition": "Quá trình chào đón và hướng dẫn người dùng mới",
+   "example": "Headway dùng quiz mục tiêu để cá nhân hoá ngay từ onboarding"
+  },
+  {
+   "term": "Paywall",
+   "type": "Sản phẩm",
+   "definition": "Điểm người dùng bị yêu cầu trả phí để tiếp tục",
+   "example": "Deepstash hiện paywall trial ngay sau đăng ký"
+  },
+  {
+   "term": "Dark pattern",
+   "type": "UX",
+   "definition": "Thiết kế đánh lừa/ép buộc người dùng làm điều không mong muốn",
+   "example": "Huỷ gói khó tìm, đồng hồ đếm ngược giả"
+  },
+  {
+   "term": "Freemium",
+   "type": "Kinh doanh",
+   "definition": "Kết hợp bản miễn phí và bản trả phí cho tính năng nâng cao",
+   "example": "Blinkist Basic (free) → Premium → Pro"
+  },
+  {
+   "term": "Subscription",
+   "type": "Kinh doanh",
+   "definition": "Người dùng trả phí định kỳ (tuần/tháng/năm)",
+   "example": "Imprint $15.99/tháng"
+  },
+  {
+   "term": "Churn / Churn rate",
+   "type": "Kinh doanh",
+   "definition": "Tỉ lệ người dùng huỷ hoặc ngừng dùng trong một khoảng thời gian",
+   "example": "Giá cao + catalog nhỏ làm tăng churn"
+  },
+  {
+   "term": "LTV (Lifetime Value)",
+   "type": "Kinh doanh",
+   "definition": "Tổng doanh thu kỳ vọng từ 1 người dùng trong suốt vòng đời",
+   "example": "Gói năm thường có LTV cao hơn gói tháng"
+  },
+  {
+   "term": "Retention",
+   "type": "Tăng trưởng",
+   "definition": "Tỉ lệ người dùng quay lại sau 1, 7, 30 ngày",
+   "example": "Streak & widget là công cụ tăng retention"
+  },
+  {
+   "term": "DAU (Daily Active Users)",
+   "type": "Tăng trưởng",
+   "definition": "Số người dùng hoạt động hằng ngày",
+   "example": "Daily Pick của Blinkist kéo DAU"
+  },
+  {
+   "term": "Streak / Streak fatigue",
+   "type": "Gamification",
+   "definition": "Chuỗi ngày liên tiếp hoàn thành hành động / sự mệt mỏi khi bị áp lực giữ chuỗi",
+   "example": "Headway dùng streak; cần streak freeze để giảm fatigue"
+  },
+  {
+   "term": "Gamification",
+   "type": "UX",
+   "definition": "Áp dụng yếu tố game (điểm, huy hiệu, thử thách) vào sản phẩm không phải game",
+   "example": "Challenge của Headway"
+  },
+  {
+   "term": "UGC (User-Generated Content)",
+   "type": "Sản phẩm",
+   "definition": "Nội dung do chính người dùng tạo ra",
+   "example": "Người dùng Deepstash tạo & chia sẻ ý tưởng của mình"
+  },
+  {
+   "term": "Lock screen widget",
+   "type": "Tính năng",
+   "definition": "Tiện ích hiển thị trên màn hình khoá — điểm tiếp xúc không cần mở app",
+   "example": "Widget quote của Headway"
+  },
+  {
+   "term": "ASO (App Store Optimization)",
+   "type": "Marketing",
+   "definition": "Tối ưu hiển thị trên kho ứng dụng, tương tự SEO",
+   "example": "Từ khoá “book summaries”, “micro learning”"
+  },
+  {
+   "term": "Social proof",
+   "type": "Marketing",
+   "definition": "Đánh giá, lượt tải… giúp người dùng mới tin tưởng",
+   "example": "Blinkist có ~158K đánh giá 4,8★"
+  },
+  {
+   "term": "USP (Unique Selling Proposition)",
+   "type": "Marketing",
+   "definition": "Điểm bán hàng độc nhất so với đối thủ",
+   "example": "USP của Imprint — học bằng hình"
+  },
+  {
+   "term": "Editors’ Choice",
+   "type": "Marketing",
+   "definition": "Huy hiệu do biên tập viên App Store trao, tăng uy tín & lượt hiển thị",
+   "example": "Headway, Imprint, Blinkist đều có"
+  },
+  {
+   "term": "LLM (Large Language Model)",
+   "type": "Công nghệ",
+   "definition": "Mô hình ngôn ngữ lớn, nền tảng của chatbot AI",
+   "example": "Blinkist AI tóm tắt PDF, bài viết"
+  },
+  {
+   "term": "Accessibility",
+   "type": "Thiết kế",
+   "definition": "Khả năng tiếp cận cho mọi người, kể cả người khuyết tật",
+   "example": "Blinkist hỗ trợ VoiceOver, Dark Interface, Contrast"
+  }
+ ]
+}
