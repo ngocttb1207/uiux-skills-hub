@@ -13,7 +13,7 @@ organized by the Product Design Workflow.
 | Stage | Description | Skills |
 |---|---|---|
 | 01 - Research | Research & competitor analysis | 1 |
-| 02 - Brainstorm | Product context & ideation | Coming soon |
+| 02 - Brainstorm | Product context & ideation | 2 |
 | 03 - Design | UI/UX design execution | Coming soon |
 | 04 - Case Study | Best practices & case studies | Coming soon |
 
