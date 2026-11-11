@@ -1,25 +1,27 @@
 
-# 03 - Design
 
-## Overview
-Skills supporting the UI/UX design execution
-process, from design preparation to final
-interface implementation.
+# 03 — Design Skills
 
-## Planned Skills
+A collection of Claude Skills supporting UI/UX
+design execution, Figma workflows, and
+AI-assisted design.
 
-| Skill | Description | Status |
+## Available Skills
+
+| Skill | Description | Link |
 |---|---|---|
-| Prompt Master | Generate and optimize design prompts | Planned |
-| Figma Setup | Prepare Figma files and structure | Planned |
-| Flow Design | Create and optimize user flows | Planned |
+| Figma Setup | Set up Figma files with 4 standard pages, Color Styles and Text Styles | [View Skill](figma-setup/SKILL.md) |
+| Prompt Master | Generate and optimize prompts for AI tools | [View Skill](prompt-master/SKILL.md) |
+| Figma Design From Reference | Recreate or adapt UI from screenshots or Figma references using the existing style guide | [View Skill](figma-design-from-reference/SKILL.md) |
+| Figma Flow Design | Design multi-screen UI flows, including happy paths and edge cases, using Figma MCP | [View Skill](figma-flow-design/SKILL.md) |
 
-## How to Use
+## Usage Notes
 
-1. Select the appropriate Skill.
-2. Open its SKILL.md file.
-3. Follow the instructions in Claude.
-4. Review the output against the product's Design System.
+- Figma Setup, Figma Design From Reference, and Figma Flow Design require explicit invocation.
+- Figma workflows depend on Figma MCP capabilities.
+- Prompt Master activates for prompt-generation or prompt-improvement requests.
 
 ## Maintained by
+
 UI/UX Design Team
+
