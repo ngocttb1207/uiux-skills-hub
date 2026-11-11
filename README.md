@@ -13,9 +13,9 @@ organized by the Product Design Workflow.
 
 | Stage | Description | Status |
 |---|---|---|
-| [01 - Research](skills/01-research/) | Research & competitor analysis | 1 |
-| [02 - Brainstorm](skills/02-brainstorm/) | Product context & ideation | 2 |
-| [03 - Design](skills/03-design/) | UI/UX design execution | Preparing |
+| [01 - Research](skills/01-research/) | Research & competitor analysis | Available |
+| [02 - Brainstorm](skills/02-brainstorm/) | Product context & ideation | Available |
+| [03 - Design](skills/03-design/) | UI/UX design execution | Available |
 | [04 - Case Study](skills/04-case-study/) | Best practices & case studies | Preparing |
 
 
@@ -50,10 +50,18 @@ requirement analysis and design ideation.
 
 ## 03. Design
 
-Planned Skills:
-- Prompt Master
-- Figma Setup
-- Flow Design
+Skills supporting UI/UX design execution,
+Figma workflows, and AI-assisted design.
+
+| Skill | Description | Link |
+|---|---|---|
+| Figma Setup | Figma file structure and style setup | [View](skills/03-design/figma-setup/SKILL.md) |
+| Prompt Master | AI prompt generation and optimization | [View](skills/03-design/prompt-master/SKILL.md) |
+| Figma Design From Reference | Design UI from existing references | [View](skills/03-design/figma-design-from-reference/SKILL.md) |
+| Figma Flow Design | Design complete UI flows and states | [View](skills/03-design/figma-flow-design/SKILL.md) |
+
+[Explore all Design Skills](skills/03-design/README.md)
+
 
 ## 04. Case Study
 
