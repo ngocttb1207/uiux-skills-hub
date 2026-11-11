@@ -8,7 +8,7 @@ app experiences, and documenting UI/UX insights.
 
 | Skill | Description | Link |
 |---|---|---|
-| Product Case Study Overview | Analyze multiple apps in the same product line, covering features, monetization, UI/UX, onboarding, and paywalls | [View Skill](product-line-overview/SKILL.md) |
+| Product Case Study Overview | Analyze multiple apps in the same product line, covering features, monetization, UI/UX, onboarding, and paywalls | [View Skill](product-case-study-overview/SKILL.md) |
 
 ## How to Use
 
