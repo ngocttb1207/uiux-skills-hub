@@ -16,8 +16,7 @@ organized by the Product Design Workflow.
 | [01 - Research](skills/01-research/) | Research & competitor analysis | Available |
 | [02 - Brainstorm](skills/02-brainstorm/) | Product context & ideation | Available |
 | [03 - Design](skills/03-design/) | UI/UX design execution | Available |
-| [04 - Case Study](skills/04-case-study/) | Best practices & case studies | Preparing |
-
+| [04 - Case Study](skills/04-case-study/) | Best practices & case studies | Available |
 
 ---
 
@@ -65,8 +64,15 @@ Figma workflows, and AI-assisted design.
 
 ## 04. Case Study
 
-Planned Skills:
-- App Best Case Study
+Skills for product analysis, app comparisons,
+and UI/UX knowledge sharing.
+
+| Skill | Description | Link |
+|---|---|---|
+| Product Line Overview | Analyze apps within the same product line and document product requirements, UI/UX patterns, onboarding, and paywalls | [View Skill](skills/04-case-study/product-case-study-overview/SKILL.md) |
+
+[Explore Case Study Skills](skills/04-case-study/README.md)
+
 
 ---
 
