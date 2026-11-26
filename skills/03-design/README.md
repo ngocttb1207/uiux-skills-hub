@@ -14,6 +14,7 @@ AI-assisted design.
 | Prompt Master | Generate and optimize prompts for AI tools | [View Skill](prompt-master/SKILL.md) |
 | Figma Design From Reference | Recreate or adapt UI from screenshots or Figma references using the existing style guide | [View Skill](figma-design-from-reference/SKILL.md) |
 | Figma Flow Design | Design multi-screen UI flows, including happy paths and edge cases, using Figma MCP | [View Skill](figma-flow-design/SKILL.md) |
+| Figma Screen Naming | Standardize Section, Frame, and Sub-frame naming based on project structure and functional roles | [View Skill](figma-screen-naming/SKILL.md) |
 
 ## Usage Notes
 
