@@ -58,6 +58,7 @@ Figma workflows, and AI-assisted design.
 | Prompt Master | AI prompt generation and optimization | [View](skills/03-design/prompt-master/SKILL.md) |
 | Figma Design From Reference | Design UI from existing references | [View](skills/03-design/figma-design-from-reference/SKILL.md) |
 | Figma Flow Design | Design complete UI flows and states | [View](skills/03-design/figma-flow-design/SKILL.md) |
+| Figma Screen Naming | Standardize screen and layer naming conventions in Figma | [View](skills/03-design/figma-screen-naming/SKILL.md) |
 
 [Explore all Design Skills](skills/03-design/README.md)
 
